@@ -16,5 +16,6 @@ print(greet("Jon!"))
 r = requests.get("http://www.jonlittler.com")
 print(r.status_code)
 
-name = input("Your Name? ")
-print("Hello,", name)
+# comment out input section
+# name = input("Your Name? ")
+#print("Hello,", name)
